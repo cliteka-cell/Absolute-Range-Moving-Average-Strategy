@@ -34,10 +34,11 @@ The strategy was tested across 13 years, meaning it had to survive the 2008 fina
 
 While outperforming the market's total return is great, the most important metric here is the Maximum Drawdown. The algorithm generated 15 times the return of the baseline market while only exposing the account to a worst-case 16.55% drop.
 
-![13-year equity curve.png](https://github.com/cliteka-cell/Absolute-Range-Moving-Average-Strategy/blob/main/13-year%20equity%20curve.png?raw=true)
-This linear scale equity graph highlights how the strategy flourishes during high-volatility regimes, specifically capturing the massive moves seen in 2008 and 2020.
 ![13-year equity curve log scale.png](https://github.com/cliteka-cell/Absolute-Range-Moving-Average-Strategy/blob/main/13-year%20equity%20curve%20log%20scale.png?raw=true)
 I used a logarithmic scale here to clearly show the steady compounding of profits over 13 years. This confirms the strategy wasn't just a one-hit wonder during the 2020 crash, but actually maintained a consistent edge through multiple different market cycles.
+
+![13-year equity curve.png](https://github.com/cliteka-cell/Absolute-Range-Moving-Average-Strategy/blob/main/13-year%20equity%20curve.png?raw=true)
+This linear scale equity graph highlights how the strategy flourishes during high-volatility regimes, specifically capturing the massive moves seen in 2008 and 2020.
 
 ## How to Run
 1. Clone this repository.
