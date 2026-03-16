@@ -26,12 +26,12 @@ The strategy was tested across 13 years, meaning it had to survive the 2008 fina
 * **Total Trades Taken:** 10,237
 * **Win Rate:** 68.0%
 
-![13-year equity curve log scale.png].(https://github.com/cliteka-cell/Absolute-Range-Moving-Average-Strategy/blob/main/13-year%20equity%20curve%20log%20scale.png?raw=true)
-
 ### Performance vs. The Market
 * **S&P 500 Buy & Hold Return:** 220.77%
 * **Algorithm Compounded Return:** 3,561.53%
 * **Maximum Drawdown:** -16.55%
+
+![13-year equity curve log scale.png](https://github.com/cliteka-cell/Absolute-Range-Moving-Average-Strategy/blob/main/13-year%20equity%20curve%20log%20scale.png?raw=true)
 
 While outperforming the market's total return is great, the most important metric here is the Maximum Drawdown. The algorithm generated 15 times the return of the baseline market while only exposing the account to a worst-case 16.55% drop.
 
