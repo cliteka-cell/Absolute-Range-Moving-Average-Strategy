@@ -10,7 +10,8 @@ To measure this, the code builds a dynamic "pipe" around the price:
 * It wraps those averages in 4 levels of Standard Deviation bands.
 * When the price hits the extreme outer bands, the algorithm enters a trade assuming the price will revert to the mean.
 
-![yahoo graph with ranges.png](https://github.com/cliteka-cell/Absolute-Range-Moving-Average-Strategy/blob/main/yahoo%20graph%20with%20ranges.png?raw=true)
+![yahoo graph with ranges.png](yahoo%20graph%20with%20ranges.png)
+
 This plot shows the "rubber band" logic in action. The dynamic bands automatically widen during high-volatility periods to filter out random price noise, ensuring the algorithm only enters trades when the price reaches a true mathematical extreme.
 
 ## Dynamic Volatility Filter
@@ -34,10 +35,12 @@ The strategy was tested across 13 years, meaning it had to survive the 2008 fina
 
 While outperforming the market's total return is great, the most important metric here is the Maximum Drawdown. The algorithm generated 15 times the return of the baseline market while only exposing the account to a worst-case 16.55% drop.
 
-![13-year equity curve log scale.png](https://github.com/cliteka-cell/Absolute-Range-Moving-Average-Strategy/blob/main/13-year%20equity%20curve%20log%20scale.png?raw=true)
+![13-year equity curve log scale.png](13-year%20equity%20curve%20log%20scale.png)
+
 I used a logarithmic scale here to clearly show the steady compounding of profits over 13 years. This confirms the strategy wasn't just a one-hit wonder during the 2020 crash, but actually maintained a consistent edge through multiple different market cycles.
 
-![13-year equity curve.png](https://github.com/cliteka-cell/Absolute-Range-Moving-Average-Strategy/blob/main/13-year%20equity%20curve.png?raw=true)
+![13-year equity curve.png](13-year%20equity%20curve.png)
+
 This linear scale equity graph highlights how the strategy flourishes during high-volatility regimes, specifically capturing the massive moves seen in 2008 and 2020.
 
 ## How to Run
