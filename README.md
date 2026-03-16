@@ -10,7 +10,7 @@ To measure this, the code builds a dynamic "pipe" around the price:
 * It wraps those averages in 4 levels of Standard Deviation bands.
 * When the price hits the extreme outer bands, the algorithm enters a trade assuming the price will revert to the mean.
 
-!(https://github.com/cliteka-cell/Absolute-Range-Moving-Average-Strategy/blob/main/yahoo%20graph%20with%20ranges.png?raw=true)
+![yahoo graph with ranges.png](https://github.com/cliteka-cell/Absolute-Range-Moving-Average-Strategy/blob/main/yahoo%20graph%20with%20ranges.png?raw=true)
 
 ## Dynamic Volatility Filter
 The core edge of this algorithm comes from its context awareness. Market volatility in 2012 was entirely different from the 2020 pandemic. 
@@ -25,6 +25,8 @@ The strategy was tested across 13 years, meaning it had to survive the 2008 fina
 * **Total Minutes Processed:** 2,070,834
 * **Total Trades Taken:** 10,237
 * **Win Rate:** 68.0%
+
+![13-year equity curve log scale.png].(https://github.com/cliteka-cell/Absolute-Range-Moving-Average-Strategy/blob/main/13-year%20equity%20curve%20log%20scale.png?raw=true)
 
 ### Performance vs. The Market
 * **S&P 500 Buy & Hold Return:** 220.77%
