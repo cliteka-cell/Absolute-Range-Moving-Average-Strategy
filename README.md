@@ -1,0 +1,1 @@
+# Absolute-Range-Moving-Average-Strategy
